@@ -1,0 +1,18 @@
+{
+  "name": "mempool-monitor",
+  "version": "1.0.0",
+  "description": "An application that monitors the mempool using the viem library.",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "viem": "^1.0.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.0.0",
+    "typescript": "^5.8.3"
+  },
+  "license": "MIT"
+}
